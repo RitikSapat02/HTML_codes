@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="\Web_Development\HTML\21_Video.html" method="POST" target="_blank"></form>
+    <label for="username">Username:
+        <input type="text" id="username" placeholder="Username" autofocus required name="username">
+    </label>
+    <br>
+    <br>
+    <label for="password">password:
+        <input type="password" id="password" name="password" required>
+    </label>
+    <br>
+    <br>
+    <label for="age">
+        Enter your age: <input type="number" min="0" max="90" step="1">
+    </label>
+    <br><br>
+
+    <label for="A">A <input type="radio" id="A" name="a"></label>
+    <label for="b">B <input type="radio" id="B" name="b"></label>
+    <label for="C">C <input type="radio" id="C" name="c"></label>
+    <br><br>
+
+    <label for="sectionida">
+        <input type="radio" id="sectionida" value="section a" name="section"> Section A
+    </label>
+
+    <label for="sectionidb">
+        <input type="radio" id="sectionidb" value="section b" name="section"> Section B
+    </label>
+
+    <label for="sectionidc">
+        <input type="radio" id="sectionidc" value="section c" name="section"> Section C
+    </label>
+    <br><br>
+
+    <label for="canteen">want food canteen card
+        <input type="checkbox" id="canteen" name="canteen">
+    </label>
+    <br><br>
+
+    <label for="button">
+        <input type="button" id="button" name="ok" value="ok" onclick="alert('hii')">
+    </label>
+    <br><br>
+
+    <label for="email">Enter your Email address:
+        <input type="email" name="email" placeholder="abc@gmail.com" required id="email">
+    </label>
+    <br><br>
+
+    <label for="date"></label>
+    <input type="date" name="date" id="date">
+    <br><br>
+
+    <label for="cars">
+        <select name="car" id="cars">
+            <option value="no car">choose a favourite car</option>
+            <option value="Lambourgini">Lambourgini</option>
+            <option value="porsch">Porsch</option>
+        </select>
+    </label>
+
+    <label for="textarea">
+        <textarea name="explain" id="textarea" cols="30" rows="10"
+            placeholder="Explain why you want to join"></textarea>
+    </label>
+    <br><br>
+
+    <input type="submit">
+    <input type="reset">
+    <br><br>
+
+    <!-- creating a search box -->
+    <input type="search" id="mysearch" name="searchitem">
+
+    <!-- making seacrh options -->
+    <label for="color">
+        <input type="text" list="colors" id="color">
+        <datalist id="colors">
+            <option value="red">
+            <option value="green">
+            <option value="Blue">
+        </datalist>
+    </label>
+
+    <fieldset>
+        <legend>INFORMATION</legend>
+        <label for="firstname"></label>
+        <input type="text" id="firstname" name="info" placeholder="Firstname">
+        <br>
+        <br>
+        <label for="lastname"></label>
+        <input type="text" id="lastname" name="last" placeholder="Lastname">
+    </fieldset>
+
+    <label for="file"></label>
+    <input type="file" id="file" name="file">
+
+    <label for="color"></label>
+    <input type="color" id="color" name="color">
+    <br>
+
+    <label for="mobile"></label>Enter your mobile no:
+    <input type="tel" id="mobile" name="Mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9}{4}" size="59" maxlength="10" required>
+
+    <label for="Month"></label>
+    <input type="Month" id="Month" name="Month">
+
+    <label for="week"></label>
+    <input type="week" id="week" name="week">
+</body>
+
+</html>
